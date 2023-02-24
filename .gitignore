@@ -1,0 +1,10 @@
+Project_data/*
+!Project_data/.gitkeep
+/venv/*
+/output/*
+!output/.gitkeep
+/.idea/*
+
+/Front/.env*
+!/Front/.env.example
+/Front/node_modules/

@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  api_t_dat_901:
+    container_name: api_t_dat_901
+    build:
+      context: ./
+      dockerfile: ./Api/Dockerfile
+    ports:
+      - "3000:3000"
+
+  react_front:
+    container_name: front_t_dat_901
+    build:
+      context: ./Front
+      dockerfile: ./Dockerfile
+    ports:
+      - "3006:3006"
